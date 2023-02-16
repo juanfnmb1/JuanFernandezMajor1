@@ -1,0 +1,109 @@
+/* General CSS for the body background */
+body {
+  background-color: rgb(172, 208, 255);
+  opacity: 1;
+  background-image: radial-gradient(grey 0.5px, rgb(172, 208, 255) 0.5px);
+  background-size: 10px 10px;
+}
+
+/* CSS for all the headings of the site */
+h1 {
+  text-align: center;
+  font-size: 60px;
+  background: -webkit-linear-gradient(#a8a7a7, rgb(0, 0, 95));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+h2 {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: rgb(0, 0, 95);
+  font-size: xx-large;
+  background: -webkit-linear-gradient(#a8a7a7, rgb(0, 0, 95));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+h3 {
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: rgb(0, 0, 95);
+  background: -webkit-linear-gradient(#000000, rgb(0, 0, 95));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* CSS for the content of the site, including the history, influence, and key artists section */
+#history {
+  font-size: larger;
+  text-align: center;
+  margin: auto;
+  margin-top: -15px;
+  width: 720px;
+  padding: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: rgb(56, 56, 56);
+  border-style: ridge;
+  border-color: grey white;
+  border-width: 10px;
+}
+#influence {
+  font-size: larger;
+  text-align: center;
+  margin: auto;
+  margin-top: 20px;
+  width: 720px;
+  padding: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: rgb(56, 56, 56);
+  border-style: ridge;
+  border-color: grey white;
+  border-width: 10px;
+}
+#artists {
+  font-size: larger;
+  text-align: center;
+  margin: auto;
+  margin-top: 20px;
+  width: 720px;
+  padding: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: rgb(56, 56, 56);
+  border-style: ridge;
+  border-color: grey white;
+  border-width: 10px;
+}
+
+/* The Key Artists heading was a bit off-centered, therefore I moved it with the margin options */
+#artistheading {
+  margin-left: 35px;
+}
+
+/* I removed the lists default style, so that the names show up neatly stacked on their own */
+ul {
+  list-style: none;
+}
+
+/*The following CSS was used to place my images horizontal to each other on the site*/
+.container {
+  flex: 30%;
+  padding: 5px;
+}
+img {
+  width: 100%;
+  border-style: ridge;
+  border-color: grey white;
+  border-width: 12px;
+}
+#paintings {
+  display: flex;
+}
+
+/* The following CSS was used to format the captions for the images */
+figcaption {
+  font-size: larger;
+  text-align: center;
+  color: rgb(56, 56, 56);
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  background: -webkit-linear-gradient(#787878, rgb(0, 0, 95));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
